@@ -5,15 +5,15 @@ export function HomePage() {
     <div>
       <h1>Spanish Flashcards</h1>
       <p>Welcome! Choose a mode to start.</p>
-      <div>
-        <Link to="/study">
-          <button>Study Mode</button>
+      <div className="navigation-buttons">
+        <Link to="/study" className="link">
+          <button className="btn-study">Study Mode</button>
         </Link>
-        <Link to="/quiz">
-          <button>Quiz Mode</button>
+        <Link to="/quiz" className="link">
+          <button className="btn-quiz">Quiz Mode</button>
         </Link>
-        <Link to="/stats">
-          <button>Stats Page</button>
+        <Link to="/stats" className="link">
+          <button className="btn-stats">Stats Page</button>
         </Link>
       </div>
     </div>
